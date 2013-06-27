@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <https://github.com/indiastewart/india-experiment#>.
+@prefix new: <http://example.com/ns/#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>. 
+
+<c52a6625f2f218983328f090fc9363baede0e852> 
+	a prov:Entity ;
+	prov:GeneratedAtTime "2013-06-27T14:49:14" ;
+	prov:wasQuotedFrom : ;
+	doap:GitBranch "master" ;
+	new:wasCommittedBy <https://github.com/indiastewart> ;
+	rdfs:comment "Initial commit" .

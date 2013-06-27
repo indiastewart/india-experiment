@@ -12,3 +12,13 @@
 	doap:GitBranch "master" ;
 	new:wasCommittedBy <https://github.com/indiastewart> ;
 	rdfs:comment "Initial commit" .
+
+<233ad53c10910746646c72ab56f55777862f6586> 
+	a prov:Entity ;
+	prov:GeneratedAtTime "2013-06-27T18:06:56" ;
+	prov:wasQuotedFrom : ;
+	prov:wasAttributedTo <http://github.com/indiastewart> ;
+	rdfs:comment "modified README" .
+
+<https://github.com/indiastewart> a prov:Agent ;
+	prov:mbox "india.stewart@uky.edu" .

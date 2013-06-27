@@ -1,12 +1,17 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix : <https://github.com/indiastewart/india-experiment#>.
+@prefix rdfs: <www.w3.org/2000/01/rdf-schema#>.
 
-< > 
+<233ad53c10910746646c72ab56f55777862f6586> 
 	a prov:Entity ;
-	prov:GeneratedAtTime " " ;
+	prov:GeneratedAtTime "2013-06-27T18:06:56" ;
 	prov:wasQuotedFrom : ;
-	prov:wasAttributedTo <http://github.com/indiastewart> .
+	prov:wasAttributedTo <http://github.com/indiastewart> ;
+	rdfs:comment "modified README" .
 
 <https://github.com/indiastewart> a prov:Agent ;
 	prov:mbox "india.stewart@uky.edu" .
+
+
+

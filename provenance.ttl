@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <https://github.com/indiastewart/india-experiment#>.
+
+< > 
+	a prov:Entity ;
+	prov:GeneratedAtTime " " ;
+	prov:wasQuotedFrom : ;
+	prov:wasAttributedTo <http://github.com/indiastewart> .
+
+<https://github.com/indiastewart> a prov:Agent ;
+	prov:mbox "india.stewart@uky.edu" .
